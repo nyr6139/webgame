@@ -1,0 +1,44 @@
+* {
+  /* font-size: 24px */
+}
+
+body {
+  background-color: rgb(118, 182, 184);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div:first-child {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+div:nth-child(2) {
+  margin: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(53, 107, 158);
+}
+
+input {
+  margin: 10px;
+  font-size: 25px;
+  border: none;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 300ms ease-in;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: gray;
+}
